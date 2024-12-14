@@ -19,6 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* developer: https://github.com/khojiakbarr */}
       <body className={`${poppins.variable} ${volkhov.variable} ${yesteryear.variable}`}>
         <LayoutRoot>{children}</LayoutRoot>
       </body>
